@@ -13,7 +13,7 @@ games:
 events:
   title: Eventos
   url: /eventos/
-  menu-url:/2016/
+  menu-url: /2016/
 press:
   title: Prensa
   url: /proximamente/ #/prensa/
