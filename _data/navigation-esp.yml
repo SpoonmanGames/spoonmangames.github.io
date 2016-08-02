@@ -8,8 +8,8 @@ blog:
   url: /blog/
 games:
   title: Juegos
-  url: /proximamente/ #/juegos/
-  #menu-url:
+  #url: /juegos/
+  #menu-url: /proximamente/
 events:
   title: Eventos
   url: /eventos/
