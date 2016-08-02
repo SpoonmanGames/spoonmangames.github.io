@@ -1,0 +1,26 @@
+---
+layout: default
+post: true
+hovereffect: true
+ekko-lightbox: true
+gallery: true
+isotope: true
+---
+
+{% include eventPage/meta-data.html %}
+
+{% include eventPage/image-header.html %}
+
+<section class="no-padding boxed-section">
+    <div class="container padding-40 padding-xs-15">
+        <div class="row">
+            <div class="col-lg-9">
+                {% include eventPage/event-content.html %}
+            </div>
+
+            <div class="col-lg-3">
+                {% include eventPage/vertical-info.html %}
+            </div>
+        </div>
+    </div>
+</section>

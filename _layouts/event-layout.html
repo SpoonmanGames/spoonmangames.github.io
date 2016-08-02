@@ -1,0 +1,37 @@
+---
+layout: default
+imagesloaded: true
+masonry: true
+hovereffect: true
+gallery: true
+---
+
+{% if page.english %}
+{% assign eventData = site.data.events-en %}
+{% else %}
+{% assign eventData = site.data.events-esp %}
+{% endif %}
+
+<section class="hero height-300" style="background-image: url({{ site.url }}{{ eventData["events"].image-url }});">
+    <div class="hero-bg"></div>
+    <div class="container">
+        <div class="page-header">
+            <div class="page-title">{{ eventData["events"].titleimage-text }}</div>
+            <ol class="breadcrumb">
+                <li><a href="{{ site.url }}{{ eventData["breadcrumb"].home-url }}" class="no-padding-left">{{ eventData["breadcrumb"].home }}</a></li>
+                <li class="active">{{ eventData["breadcrumb"].event }}</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<section class="bg-grey-100">
+    <div class="container masonry padding-sm-15">
+        <div class="box no-radius">
+                    
+                   {% include eventPage/latest-events.html %}
+
+        </div>
+    </div>
+</section>
+

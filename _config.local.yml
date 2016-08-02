@@ -1,0 +1,62 @@
+# Site wide configuration
+
+title: Spoonman Games
+description: ¡Vídeo Juegos con cariño y locura!
+logo: sp-twitter-logo.png # 120x120 px default image used for Twitter summary card
+teaser: blog/teaser/sp-teaser.png # default image for teasers on blog posts
+teaser-alt: Spoonman Games! # alt showed in images of site.teaser
+cover: blog/cover/sp-cover.png # default image for cover on blog posts, recommended size 1920x300p
+cover-alt: Spoonman Games! # alt showed in images of site.cover
+locale: es_LA
+url: //127.0.0.1:4000
+
+# Jekyll configuration
+
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: pygments
+gems:
+  - jekyll-redirect-from  # Se usa 'redirect_from: "/foo"' en el header
+  - jekyll-sitemap
+
+# Site owner
+
+owner:
+  name: Spoonman Games
+  rol: La Gran Cuchara
+  avatar: spoonman-avatar.png
+  bio: Una noche leí Kafka, al amanecer - ¡Cuchara!
+  web: www.spoonmangames.cl
+  email: spoonman.desarrollo@gmail.com
+  facebook: spoonman.games
+  facebook-sdk:
+    active: true
+    appId: 108482629489132
+    version: v2.3
+  twitter: spoonmangames
+  github: SpoonmanGames
+  youtube: c/SpoonmanGames
+  googleplus: +SpoonmanGames
+  google:
+    ad-client: ca-pub-6741434326303719
+    ad-slot: 6182257180
+  disqus-shortname: spoonmangames
+
+owner-en:
+  name: Spoonman Games
+  rol: The Big Spoon
+  avatar: spoonman-avatar.png
+  bio: "One night I read Kafka, at down - ¡Spoon!"
+  web: www.spoonmangames.cl
+  email: spoonman.desarrollo@gmail.com
+  facebook: spoonman.games
+  twitter: spoonmangames
+  github: SpoonmanGames
+  youtube: c/SpoonmanGames
+  googleplus: +SpoonmanGames
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-63691275-1
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", "CNAME", "TODO.md"]
