@@ -1,0 +1,18 @@
+events:
+    title : "Próximos eventos"
+    titleimage-text: Eventos Spoonman Games
+    image-url: /img/blog/cover/sp-cover.png
+    members-link: /acercade/miembros/
+    tag-link: /event/tags/
+    notag-text: Sin tags
+    updatingdisqus-text: Actualizando Disqus
+    description: "Si quieres saber donde sera nuestra proxima participacion en los eventos que se realizan en Santiago y el Mundo, te invitamos a revisar estas publicaciones"
+    view-game: "Ver publicación"
+breadcrumb:
+    home: Inicio
+    home-url: /
+    event: Eventos
+    event-url: /eventos/
+    eventlist: Lista de Eventos Spoonman Games
+    eventlist-url: /eventos/
+    actualevent: Publicación

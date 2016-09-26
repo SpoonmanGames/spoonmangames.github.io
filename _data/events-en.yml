@@ -1,0 +1,15 @@
+blog:
+    titleimage-text: Events Spoonman Games
+    image-url: /img/blog/cover/sp-cover.png
+    members-link: /acercade/miembros/
+    tag-link: /blog/tags/
+    notag-text: Sin tags
+    updatingdisqus-text: Actualizando Disqus
+breadcrumb:
+    home: Home
+    home-url: /
+    blog: Events
+    blog-url: /eventos/
+    postlist: Event List Spoonman Games
+    postlist-url: /eventos/
+    actualpost: Publicación

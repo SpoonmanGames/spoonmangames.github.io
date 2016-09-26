@@ -1,0 +1,9 @@
+games:
+    titleimage-text: "Proyectos"
+    image-url: /img/about/SpoonmanGamesBanner.png
+    image-dih: /img/games/teaser/DescendIntoHeaven-350x230-teaser.jpg
+breadcrumb:
+    home: Inicio
+    home-url: /
+    juegos: Juegos
+    juegos-url: /juegos/

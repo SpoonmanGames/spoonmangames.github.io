@@ -1,0 +1,59 @@
+---
+layout: default
+background: bg-grey-100
+carousel: true
+ekko-lightbox: true
+easypiechart: true
+acercade: true
+founders:
+- esteban_gaete
+- victor_gaete
+---
+
+{% if page.english %}
+{% assign gamesData = site.data.juegos-en %}
+{% else %}
+{% assign gamesData = site.data.juegos-esp %}
+{% endif %}
+
+
+<section class="hero height-240" style="background-image: url({{ site.url }}{{ gamesData["games"].image-url }});">
+	<div class="hero-bg"></div>
+	<div class="container">
+		<div class="page-header game">
+			<div class="page-title">{{ gamesData["games"].titleimage-text }}</div>
+			<ol class="breadcrumb">
+				<li><a href="{{ site.url }}{{ gamesData["breadcrumb"].home-url }}" class="no-padding-left">{{ gamesData["breadcrumb"].home }}</a></li>
+				<li class="active">{{ gamesData["breadcrumb"].juegos }}</li>
+			</ol>   
+			<!--<a href="{{ gamesData["youtube"].link }}" class="btn btn-lg btn-success margin-top-30 text-initial bgcolor-yellow color-black" data-toggle="lightbox" data-width="1280">{{ gamesData["youtube"].text }}</a>-->
+		</div>
+	</div>
+</section>
+
+
+<section class="no-padding">
+	<div class="container">
+		<div class="row margin-top-50 margin-bottom-50">
+			<div class="col-lg-15">
+				<div class="box padding-top-40 padding-left-40 padding-right-40 padding-bottom-10">
+					<div class="post no-margin-bottom">
+						<div class="post-header margin-top-10">
+							<div class="post-title">
+								<h2 class="text-uppercase"><a href="{{ gamesData["breadcrumb"].juegos-url }}">{{ gamesData["games"].titleimage-text }}</a></h2>
+								<br/>
+								
+								{% include gamesPage/game-box-list.html %}
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>          
+		</div>
+	</div>
+</section>
+
+
+
+
