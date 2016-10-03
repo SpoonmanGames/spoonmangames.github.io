@@ -28,7 +28,7 @@ owner:
   avatar: spoonman-avatar.png
   bio: Una noche leí Kafka, al amanecer - ¡Cuchara!
   web: www.spoonmangames.cl
-  email: spoonman.desarrollo@gmail.com
+  email: contact@spoonmangames.cl
   facebook: spoonman.games
   facebook-sdk:
     active: true
@@ -49,7 +49,7 @@ owner-en:
   avatar: spoonman-avatar.png
   bio: "One night I read Kafka, at down - ¡Spoon!"
   web: www.spoonmangames.cl
-  email: spoonman.desarrollo@gmail.com
+  email: contact@spoonmangames.cl
   facebook: spoonman.games
   twitter: spoonmangames
   github: SpoonmanGames
