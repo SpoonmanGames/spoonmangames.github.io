@@ -15,7 +15,7 @@ url: //127.0.0.1:4000
 permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
-highlighter: pygments
+highlighter: rouge
 gems:
   - jekyll-redirect-from  # Se usa 'redirect_from: "/foo"' en el header
   - jekyll-sitemap

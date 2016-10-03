@@ -15,7 +15,7 @@ url: http://www.spoonmangames.cl
 permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
-highlighter: pygments
+highlighter: rouge
 gems:
   - jekyll-redirect-from  # Se usa 'redirect_from: "/foo"' en el header
   - jekyll-sitemap
