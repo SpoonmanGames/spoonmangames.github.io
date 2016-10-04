@@ -1,5 +1,5 @@
 ---
 layout: index-layout
-permalink: /
+permalink: /Unity3DTools/
 english: false
 ---
