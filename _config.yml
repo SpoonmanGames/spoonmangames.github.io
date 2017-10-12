@@ -8,7 +8,7 @@ teaser-alt: Spoonman Games! # alt showed in images of site.teaser
 cover: blog/cover/sp-cover.png # default image for cover on blog posts, recommended size 1920x300p
 cover-alt: Spoonman Games! # alt showed in images of site.cover
 locale: es_LA
-url: http://www.spoonmangames.cl
+url: http://spoonmangames.github.io
 
 # Jekyll configuration
 
@@ -27,7 +27,7 @@ owner:
   rol: La Gran Cuchara
   avatar: spoonman-avatar.png
   bio: Una noche leí Kafka, al amanecer - ¡Cuchara!
-  web: www.spoonmangames.cl
+  web: spoonmangames.github.io
   email: contact@spoonmangames.cl
   facebook: spoonman.games
   facebook-sdk:
@@ -48,7 +48,7 @@ owner-en:
   rol: The Big Spoon
   avatar: spoonman-avatar.png
   bio: "One night I read Kafka, at down - ¡Spoon!"
-  web: www.spoonmangames.cl
+  web: spoonmangames.github.io
   email: contact@spoonmangames.cl
   facebook: spoonman.games
   twitter: spoonmangames
